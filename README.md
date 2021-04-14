@@ -17,3 +17,4 @@ manual and automated) as well as implementation and exploitation of vulnerabilit
 
 These labs were helped and supported by Professor Wenliang Du. 
 More information can be found here: *https://seedsecuritylabs.org/about_us.html*
+All the quizzes can be found under the **problem sections** here *https://www.handsonsecurity.net/resources.html*
